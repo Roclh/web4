@@ -1,0 +1,34 @@
+div{
+  background-color: aliceblue;
+  border-radius: 15px;
+  border: black 1px solid;
+  box-shadow: 0 0 7px #666;
+  width: auto;
+  height: auto;
+  margin-top: 4rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+form{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h5{
+  font-size: 3rem;
+}
+
+.messages{
+  position: absolute;
+  bottom: 10px;
+}
+button{
+  margin-right: 1.5em;
+  margin-bottom: 1em;
+}
+
+.p-float-label{
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}

@@ -1,0 +1,19 @@
+<div class="form">
+  <form>
+    <H1>Авторизация</H1>
+    <p>Для дальнейшей работы с приложением вам необходимо авторизоваться</p>
+    <span class="p-float-label">
+      <input id="login" type="text" pInputText class="p-inputtext-lg" [(ngModel)]="login" [ngModelOptions]="{standalone: true}" placeholder="Логин"/>
+      <label for="login"></label>
+    </span>
+
+    <span class="p-float-label">
+      <input id="password" type="password" pInputText class="p-inputtext-lg" [(ngModel)]="password" [ngModelOptions]="{standalone: true}" placeholder="Пароль"/>
+      <label for="password"></label>
+    </span>
+    <button pButton type="button" label="Вход" (click)="enter()" class="p-button-raised p-button-secondary"></button>
+    <button pButton type="button" label="Регистрация" (click)="register()" class="p-button-raised p-button-secondary"></button>
+
+  </form>
+</div>
+<simple-notifications></simple-notifications>
