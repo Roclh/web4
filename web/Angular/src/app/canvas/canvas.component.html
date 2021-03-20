@@ -1,0 +1,9 @@
+<div #container
+     [style.height.px]="wh"
+     [style.width.px]="wh"
+     (click)="submitPoint($event)"
+     (mousemove)="redrawAim($event, this.aimCtx)"
+     (mouseout)="eraseAim()">
+  <canvas #canvas [height]="wh" [width]="wh"></canvas>
+  <canvas #aim [height]="wh" [width]="wh"></canvas>
+</div>

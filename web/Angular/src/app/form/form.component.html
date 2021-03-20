@@ -1,0 +1,32 @@
+<div id="main">
+  <br/>
+  <app-canvas [radius]="canvasRadius" [widthHeight]="canvasWidthHeight" [matching-radius]="matchingRadius"
+              (onSubmit)="submitPoint($event)" [points]="$points"></app-canvas>
+  <br/>
+  <div class="input">
+    <form [formGroup]="pointForm">
+    <p style="margin-right: 15px">Y: {{yForm.value | number:'1.2-2'}}</p>
+    <label>
+      <input type="range" min="-5" max="5" step="0.01" formControlName="y">
+    </label>
+    <br/>
+    <label>
+      <p-dropdown [options]="xValues" formControlName="x"></p-dropdown>
+    </label>
+    <label>
+      <p-dropdown [options]="rValues" formControlName="r" (onChange)="redraw()"></p-dropdown>
+      <small *ngIf="rForm.value < 0" class="p-invalid" style="margin-left: 0.5rem">
+        Радиус должен быть положительным
+      </small>
+    </label>
+    <br/>
+    <br/>
+    <div id="manual-input-buttons">
+      <p-button id="submit" (click)="submitPoint(pointForm.value)"> Подтвердить</p-button>
+      <p-button id="clear" (click)="clearPoints()">Удалить точки</p-button>
+      <p-button id="exit" routerLink="/auth" (click)="signOut()">Выйти</p-button>
+    </div>
+    </form>
+  </div>
+  <br/>
+</div>
