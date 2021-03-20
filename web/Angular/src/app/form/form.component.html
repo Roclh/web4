@@ -11,10 +11,19 @@
     </label>
     <br/>
     <label>
-      <p-dropdown [options]="xValues" formControlName="x"></p-dropdown>
+      <p-dropdown
+        [options]="xValues"
+        formControlName="x"
+        placeholder="Select X"
+      ></p-dropdown>
     </label>
     <label>
-      <p-dropdown [options]="rValues" formControlName="r" (onChange)="redraw()"></p-dropdown>
+      <p-dropdown
+        [options]="rValues"
+        formControlName="r"
+        (onChange)="redraw()"
+        placeholder="Select R"
+      ></p-dropdown>
       <small *ngIf="rForm.value < 0" class="p-invalid" style="margin-left: 0.5rem">
         Радиус должен быть положительным
       </small>

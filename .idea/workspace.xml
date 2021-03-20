@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="lab4:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99b54158-2ad5-499a-a769-ffac255be29f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lab4_ejb_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lab4_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lab4_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56ee898a-bcb7-4d2e-be21-fbe3ea4b1ca8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56ee898a-bcb7-4d2e-be21-fbe3ea4b1ca8/storage_v2/_src_/database/PersonInfo.w51Anw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56ee898a-bcb7-4d2e-be21-fbe3ea4b1ca8/storage_v2/_src_/database/PersonInfo.w51Anw/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56ee898a-bcb7-4d2e-be21-fbe3ea4b1ca8/storage_v2/_src_/database/PersonInfo.w51Anw/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56ee898a-bcb7-4d2e-be21-fbe3ea4b1ca8/storage_v2/_src_/database/persons.vs-P1w.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56ee898a-bcb7-4d2e-be21-fbe3ea4b1ca8/storage_v2/_src_/database/persons.vs-P1w/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56ee898a-bcb7-4d2e-be21-fbe3ea4b1ca8/storage_v2/_src_/database/persons.vs-P1w/schema/information_schema.FNRwLQ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56ee898a-bcb7-4d2e-be21-fbe3ea4b1ca8/storage_v2/_src_/database/persons.vs-P1w/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56ee898a-bcb7-4d2e-be21-fbe3ea4b1ca8/storage_v2/_src_/database/persons.vs-P1w/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56ee898a-bcb7-4d2e-be21-fbe3ea4b1ca8/storage_v2/_src_/database/persons.vs-P1w/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56ee898a-bcb7-4d2e-be21-fbe3ea4b1ca8/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56ee898a-bcb7-4d2e-be21-fbe3ea4b1ca8/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56ee898a-bcb7-4d2e-be21-fbe3ea4b1ca8/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/56ee898a-bcb7-4d2e-be21-fbe3ea4b1ca8/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T011035.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T011107.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T011114.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T011126.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T011305.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T012430.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T012435.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T012552.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T012725.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T013213.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T013605.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T014338.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T014351.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T014409.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T015440.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T021034.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T021041.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T021105.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T021116.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T022513.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T022633.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T022641.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T022646.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T022648.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T022652.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T022933.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T022940.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T023156.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T115546.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T115937.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T120734.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T120740.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-03-20T120754.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/lab4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/EJB_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_agroal_agroal_api_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_agroal_agroal_pool_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_api_0_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_jackson_0_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_26_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_4_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_20_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/lab4_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rest/AuthResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rest/Credentials.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rest/MainResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rest/RestApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rest/filters/Authorized.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rest/filters/CorsFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Rest/filters/TokenFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/beans/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/beans/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/PersonRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/PointRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/enums/ResponseMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/AuthResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/AuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/CheckPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/KeyGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/services/TokenService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/Rest/AuthResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/Rest/Credentials.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/Rest/MainResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/Rest/RestApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/Rest/filters/Authorized.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/Rest/filters/CorsFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/Rest/filters/TokenFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/beans/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/beans/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/db/PersonRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/db/PointRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/enums/ResponseMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/services/AuthResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/services/AuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/services/CheckPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/services/KeyGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/services/TokenService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/agroal-api-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/agroal-pool-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/checker-qual-3.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/commons-codec-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/dom4j-2.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/hibernate-entitymanager-5.4.10.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/hibernate-validator-6.1.6.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jackson-core-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jackson-databind-2.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jandex-2.1.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jjwt-0.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jjwt-api-0.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jjwt-jackson-0.11.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/postgresql-42.2.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/java/Rest/PointJSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/java/services/PointService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/canvas/canvas.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/canvas/canvas.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/canvas/canvas.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/canvas/canvas.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/form/form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/form/form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/form/form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/form/form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/java/Rest/MainResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/java/Rest/MainResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/java/beans/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/java/beans/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/java/db/PointRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/java/db/PointRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="A:\Program files\IDE\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oLL4FGJUkhDiiAt7WgvuvWeeRR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/Angular/angular.json" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="A:\Program files\IDE\IntellijIdea\projects\lab4\lab4\web\Angular\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Rest" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="A:\Program files\IDE\IntellijIdea\projects\lab4\lab4\out\artifacts\lab4_war_exploded\META-INF" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="A:\Program files\IDE\IntellijIdea\projects\lab4\lab4\web\webapp" />
+      <recent name="A:\Program files\IDE\IntellijIdea\projects\lab4\lab4\web\java" />
+      <recent name="A:\Program files\IDE\IntellijIdea\projects\lab4\lab4" />
+      <recent name="A:\Program files\IDE\IntellijIdea\projects\lab4\lab4\web\Angular" />
+      <recent name="A:\Program files\IDE\IntellijIdea\projects\lab4\lab4\web\WEB-INF" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:4201/lab4_war_exploded/api/auth/login" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:4201/api/auth/login" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:4201/auth/login" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:4201/auth/register" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:4201/auth/login" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:4201/auth/login" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="login:12345,password:12345" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JBoss Server.JBoss 20.0.1.Final">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="JBoss 20.0.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 20.0.1.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:4201/lab4_war_exploded" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="lab4:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="main-server-group" />
+        <option name="USERNAME" value="Roclh" />
+        <option name="CREDENTIAL_ALIAS" value="a1cf5af6-e19c-44bf-b305-a404bda318c1" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59765" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="lab4:war exploded" />
+        </option>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E2E Tests (lab4)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/node_modules/protractor" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Angular Application" />
+      <item itemvalue="JBoss Server.JBoss 20.0.1.Final" />
+      <item itemvalue="npm.Angular CLI Server" />
+      <item itemvalue="Protractor.E2E Tests (lab4)" />
+      <item itemvalue="HTTP Request.generated-requests#5" />
+      <item itemvalue="HTTP Request.generated-requests#7" />
+      <item itemvalue="HTTP Request.generated-requests#4" />
+      <item itemvalue="HTTP Request.generated-requests#3" />
+      <item itemvalue="HTTP Request.generated-requests#2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests#3" />
+        <item itemvalue="HTTP Request.generated-requests#2" />
+        <item itemvalue="HTTP Request.generated-requests#4" />
+        <item itemvalue="HTTP Request.generated-requests#5" />
+        <item itemvalue="HTTP Request.generated-requests#7" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99b54158-2ad5-499a-a769-ffac255be29f" name="Default Changelist" comment="" />
+      <created>1613060731466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613060731466</updated>
+      <workItem from="1613060733566" duration="6764000" />
+      <workItem from="1613149763682" duration="4712000" />
+      <workItem from="1613168577405" duration="5961000" />
+      <workItem from="1613418082580" duration="1466000" />
+      <workItem from="1613757575553" duration="1159000" />
+      <workItem from="1613852198163" duration="20000" />
+      <workItem from="1615300577142" duration="4353000" />
+      <workItem from="1615305560332" duration="1002000" />
+      <workItem from="1615726819775" duration="28925000" />
+      <workItem from="1616147328722" duration="1085000" />
+      <workItem from="1616148442574" duration="55032000" />
+    </task>
+    <task id="LOCAL-00001" summary="Much work done boys">
+      <created>1616144356246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616144356246</updated>
+    </task>
+    <task id="LOCAL-00002" summary="We've gone too far today, but this was pointless">
+      <created>1616255374435</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616255374435</updated>
+    </task>
+    <task id="LOCAL-00003" summary="+header">
+      <created>1616255523030</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616255523030</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Much work done boys" />
+    <MESSAGE value="We've gone too far today, but this was pointless" />
+    <MESSAGE value="+header" />
+    <option name="LAST_COMMIT_MESSAGE" value="+header" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3395" y="384" key="#Assign_Data_Sources" timestamp="1616157174596">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3395" y="384" key="#Assign_Data_Sources/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616157174596" />
+    <state x="3030" y="259" key="#BuildArtifactsBeforeRunChooser" timestamp="1616145394115">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3030" y="259" key="#BuildArtifactsBeforeRunChooser/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616145394115" />
+    <state x="2872" y="0" key="#Project_Structure" timestamp="1616086545268">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2872" y="0" key="#Project_Structure/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616086545268" />
+    <state x="473" y="588" key="#TSLint" timestamp="1613070067984">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="473" y="588" key="#TSLint/0.0.2560.1400@0.0.2560.1400" timestamp="1613070067984" />
+    <state x="3038" y="33" width="1099" height="1007" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616238672620">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="730" y="345" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1616083142322" />
+    <state x="3038" y="33" width="1099" height="1007" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616238672620" />
+    <state x="975" y="479" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615825632216">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="975" y="479" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1615825632216" />
+    <state x="3030" y="150" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1616185258360">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3030" y="150" key="#com.intellij.ide.macro.MacrosDialog/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616185258360" />
+    <state x="3339" y="251" key="#com.intellij.ide.util.MemberChooser" timestamp="1616257832882">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1038" y="345" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1615728872161" />
+    <state x="3339" y="251" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616257832882" />
+    <state x="812" y="291" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1616084088099">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="812" y="291" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1616084088099" />
+    <state x="2990" y="0" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1616176991141">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2990" y="0" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616176991141" />
+    <state x="957" y="420" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1615305202959">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="957" y="420" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1615305202959" />
+    <state x="3245" y="310" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1616257880373">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3245" y="310" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616257880373" />
+    <state x="3230" y="104" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1616152017408">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3230" y="104" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616152017408" />
+    <state x="944" y="384" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615830982567">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="944" y="384" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1615830982567" />
+    <state x="3030" y="4" key="CommitChangelistDialog2" timestamp="1616255522068">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3030" y="4" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616255522068" />
+    <state x="3133" y="202" key="EnvironmentVariablesDialog" timestamp="1616160792159">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3133" y="202" key="EnvironmentVariablesDialog/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616160792159" />
+    <state x="3030" y="178" key="FileChooserDialogImpl" timestamp="1616185989311">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3030" y="178" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616185989311" />
+    <state width="1573" height="3" key="GridCell.Tab.0.bottom" timestamp="1616259108525">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2505" height="384" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1613169577615" />
+    <state width="1573" height="3" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616259108525" />
+    <state width="1224" height="387" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1613069352040" />
+    <state width="1573" height="3" key="GridCell.Tab.0.center" timestamp="1616259108525">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2505" height="384" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1613169577615" />
+    <state width="1573" height="3" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616259108525" />
+    <state width="1224" height="387" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1613069352040" />
+    <state width="1573" height="3" key="GridCell.Tab.0.left" timestamp="1616259108525">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2505" height="384" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1613169577614" />
+    <state width="1573" height="3" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616259108525" />
+    <state width="1224" height="387" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1613069352040" />
+    <state width="1573" height="3" key="GridCell.Tab.0.right" timestamp="1616259108525">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2505" height="384" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1613169577615" />
+    <state width="1573" height="3" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616259108525" />
+    <state width="1224" height="387" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1613069352040" />
+    <state width="1573" height="765" key="GridCell.Tab.1.bottom" timestamp="1616239747165">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1573" height="765" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616239747165" />
+    <state width="1573" height="765" key="GridCell.Tab.1.center" timestamp="1616239747165">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1573" height="765" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616239747165" />
+    <state width="1573" height="765" key="GridCell.Tab.1.left" timestamp="1616239747165">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1573" height="765" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616239747165" />
+    <state width="1573" height="765" key="GridCell.Tab.1.right" timestamp="1616239747165">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1573" height="765" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616239747165" />
+    <state width="274" height="594" key="HiddenNamespacesPopup" timestamp="1616152679839">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state width="274" height="594" key="HiddenNamespacesPopup/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616152679839" />
+    <state x="2934" y="90" key="Maven.ArtifactSearchDialog" timestamp="1616154893424">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2934" y="90" key="Maven.ArtifactSearchDialog/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616154893424" />
+    <state x="3034" y="0" key="SettingsEditor" timestamp="1616233628717">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="632" y="169" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1616081205160" />
+    <state x="3034" y="0" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616233628717" />
+    <state x="3274" y="230" key="Vcs.Push.Dialog.v2" timestamp="1616255716569">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3274" y="230" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616255716569" />
+    <state x="3395" y="341" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1616152627543">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3395" y="341" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616152627543" />
+    <state x="3369" y="375" width="400" height="308" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1616152813119">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3369" y="375" width="400" height="308" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616152813119" />
+    <state x="3818" y="145" width="630" height="725" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1616158240960">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3818" y="145" width="630" height="725" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616158240960" />
+    <state x="3336" y="435" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1616255637609">
+      <screen x="2560" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3336" y="435" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616255637609" />
+    <state x="1034" y="585" key="git4idea.remote.GitConfigureRemotesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1613067706245" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/AuthResource.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/AuthResource.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/AuthResource.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/AuthResource.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/AuthResource.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/AuthResource.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/AuthResource.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/AuthResource.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/filters/CorsFilter.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/filters/CorsFilter.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/filters/CorsFilter.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/filters/CorsFilter.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/filters/CorsFilter.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

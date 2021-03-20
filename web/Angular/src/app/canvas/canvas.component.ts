@@ -157,20 +157,20 @@ export class CanvasComponent implements OnInit, AfterViewInit, OnChanges {
     ctx.fillStyle = design.colors.shapes;
 
     // прямоугольник
-    ctx.fillRect(center - rOffset, center, center, rOffset / 2);
+    ctx.fillRect(center - rOffset/2, center-rOffset, rOffset/2, rOffset);
 
     // треугольник
     ctx.moveTo(center, center);
     ctx.beginPath();
-    ctx.lineTo(center, center + rOffset);
+    ctx.lineTo(center, center - rOffset/2);
     ctx.lineTo(center + rOffset, center);
     ctx.lineTo(center, center);
     ctx.fill();
 
     // четверть круга
     ctx.beginPath();
-    ctx.lineTo(center - rOffset, center);
-    ctx.arc(center, center, rOffset, -Math.PI, -Math.PI / 2);
+    ctx.lineTo(center + rOffset, center);
+    ctx.arc(center, center, rOffset, 0, Math.PI/2);
     ctx.lineTo(center, center);
     ctx.fill();
   }

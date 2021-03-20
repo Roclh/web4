@@ -47,4 +47,8 @@ public class Point {
                 .add("result", result)
                 .build();
     }
+
+    public void setOwner(Person person) {
+        this.owner = person;
+    }
 }

@@ -19,8 +19,8 @@ export class FormComponent implements OnInit, AfterViewInit {
   username!: string;
   $points: Subject<Point[]> = new Subject<Point[]>();
   pointForm: FormGroup;
-  xValues = [ -4, -3, -2, -1, 0,1, 2,3, 4].reverse();
-  rValues = [ -4, -3, -2, -1, 0, 1, 2, 3, 4].reverse();
+  xValues = [ -4, -3, -2, -1, "0", 1, 2,3, 4].reverse();
+  rValues = [ -4, -3, -2, -1, "0", 1, 2, 3, 4].reverse();
   canvasRadius = 3;
   matchingRadius = false;
   readonly canvasWidthHeight = 500;

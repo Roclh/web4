@@ -46,11 +46,11 @@ import {ConfigService} from './services/config.service';
     ConfigService,
     {
       provide: 'login',
-      useValue: 'http://localhost:4201/lab4_war_exploded/api/auth/login'
+      useValue: '/api/auth/login'
     },
     {
       provide: 'register',
-      useValue: 'http://localhost:4201/lab4_war_exploded/api/auth/register'
+      useValue: '/api/auth/register'
     },
     {
       provide: 'hitsUrl',
