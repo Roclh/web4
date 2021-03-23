@@ -19,27 +19,27 @@ import javax.ws.rs.core.Response;
 @Produces(MediaType.APPLICATION_JSON)
 public class MainResource {
     @EJB
-    private PointService hitService;
+    private PointService pointService;
 
     @GET
-    public Response getHitsData(@Context HttpHeaders headers) {
+    public Response getPointsData(@Context HttpHeaders headers) {
         String username = headers.getHeaderString("username");
-        return Response.ok(hitService.getAllJSON(username)).build();
+        return Response.ok(pointService.getAllJSON(username)).build();
     }
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response addHit(@Context HttpHeaders headers, @Valid PointJSON pointJSON) {
+    public Response addPoint(@Context HttpHeaders headers, @Valid PointJSON pointJSON) {
         String username = headers.getHeaderString("username");
-        Point hit = new Point(pointJSON.getX(), pointJSON.getY().floatValue(), pointJSON.getR());
-        hitService.add(hit, username);
+        Point point = new Point(pointJSON.getX(), pointJSON.getY().floatValue(), pointJSON.getR());
+        pointService.add(point, username);
         return Response.ok(jsonMessage("point added (owner is " + username + ")")).build();
     }
 
     @DELETE
     public Response clear(@Context HttpHeaders headers) {
         String username = headers.getHeaderString("username");
-        hitService.clear(username);
+        pointService.clear(username);
         return Response.ok().build();
     }
 

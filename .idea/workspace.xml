@@ -19,101 +19,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99b54158-2ad5-499a-a769-ffac255be29f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/Angular/src/app/table/table.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Angular/src/app/table/table.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Angular/src/app/table/table.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Angular/src/app/table/table.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Angular/src/proxy.conf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lab4_ejb_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lab4_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lab4_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/lab4_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lab4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lab4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lab4_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Rest/AuthResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Rest/Credentials.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Rest/MainResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Rest/RestApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Rest/filters/Authorized.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Rest/filters/CorsFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Rest/filters/TokenFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/beans/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/beans/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/PersonRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db/PointRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/enums/ResponseMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/AuthResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/AuthService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/CheckPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/KeyGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/TokenService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/Rest/AuthResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/Rest/Credentials.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/Rest/MainResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/Rest/RestApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/Rest/filters/Authorized.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/Rest/filters/CorsFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/Rest/filters/TokenFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/beans/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/beans/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/db/PersonRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/db/PointRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/enums/ResponseMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/services/AuthResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/services/AuthService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/services/CheckPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/services/KeyGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/classes/services/TokenService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/agroal-api-1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/agroal-pool-1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/checker-qual-3.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/commons-codec-1.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/dom4j-2.1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/hibernate-entitymanager-5.4.10.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/hibernate-validator-6.1.6.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jackson-core-2.9.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jackson-databind-2.9.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jandex-2.1.3.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jjwt-0.9.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jjwt-api-0.11.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/jjwt-jackson-0.11.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/postgresql-42.2.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/lab4/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Angular/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/auth-form/auth-form.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/auth-form/auth-form.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/auth-form/auth-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/auth-form/auth-form.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/canvas/canvas.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/canvas/canvas.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/form/form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/form/form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/form/form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/form/form.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/pages/main/main.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/pages/main/main.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/pages/main/main.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/pages/main/main.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/pages/main/main.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/pages/main/main.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/services/config.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/services/config.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Angular/src/app/services/point.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/app/services/point.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Angular/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Angular/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Angular/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/java/services/CheckPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/java/services/CheckPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/java/Rest/MainResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/java/Rest/MainResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,7 +308,7 @@
       <workItem from="1615305560332" duration="1002000" />
       <workItem from="1615726819775" duration="28925000" />
       <workItem from="1616147328722" duration="1085000" />
-      <workItem from="1616148442574" duration="77202000" />
+      <workItem from="1616148442574" duration="78082000" />
     </task>
     <task id="LOCAL-00001" summary="Much work done boys">
       <created>1616144356246</created>
@@ -431,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616259955064</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="final version">
+      <created>1616510373423</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616510373424</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +368,8 @@
     <MESSAGE value="We've gone too far today, but this was pointless" />
     <MESSAGE value="+header" />
     <MESSAGE value="some fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some fixes" />
+    <MESSAGE value="final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="final version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3395" y="384" key="#Assign_Data_Sources" timestamp="1616157174596">
@@ -520,10 +435,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="944" y="384" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1616505420916" />
-    <state x="3030" y="4" key="CommitChangelistDialog2" timestamp="1616259951203">
+    <state x="3030" y="4" key="CommitChangelistDialog2" timestamp="1616510368435">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
-    <state x="3030" y="4" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616259951203" />
+    <state x="3030" y="4" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616510368435" />
     <state x="3133" y="202" key="EnvironmentVariablesDialog" timestamp="1616160792159">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
@@ -590,10 +505,10 @@
     </state>
     <state x="632" y="169" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1616502997381" />
     <state x="3034" y="0" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616505939478" />
-    <state x="3274" y="230" key="Vcs.Push.Dialog.v2" timestamp="1616259957018">
+    <state x="3274" y="230" key="Vcs.Push.Dialog.v2" timestamp="1616510376281">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
-    <state x="3274" y="230" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616259957018" />
+    <state x="3274" y="230" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1616510376281" />
     <state x="3395" y="341" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1616152627543">
       <screen x="2560" y="0" width="1920" height="1040" />
     </state>
@@ -620,26 +535,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/java/Rest/AuthResource.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/java/Rest/AuthResource.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/java/Rest/AuthResource.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/java/Rest/AuthResource.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/web/java/services/AuthService.java</url>
           <line>37</line>
           <option name="timeStamp" value="67" />
@@ -658,6 +553,26 @@
           <url>file://$PROJECT_DIR$/web/java/services/AuthService.java</url>
           <line>34</line>
           <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/AuthResource.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/AuthResource.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/AuthResource.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/java/Rest/AuthResource.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
