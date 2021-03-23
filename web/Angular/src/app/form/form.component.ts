@@ -1,4 +1,4 @@
-import {AfterViewInit, Component, OnInit} from '@angular/core';
+import {AfterViewInit, Component, Inject, Input, OnInit} from '@angular/core';
 import {Point} from '../objects/Point';
 import {catchError} from 'rxjs/operators';
 import {HttpErrorResponse} from '@angular/common/http';
@@ -7,6 +7,7 @@ import {ConfigService} from '../services/config.service';
 import {Router} from '@angular/router';
 import {FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
 import {PointService} from '../services/point.service';
+import {NotificationsService} from 'angular2-notifications';
 
 
 @Component({
@@ -17,18 +18,39 @@ import {PointService} from '../services/point.service';
 })
 export class FormComponent implements OnInit, AfterViewInit {
   username!: string;
-  $points: Subject<Point[]> = new Subject<Point[]>();
+  @Input('value') $points!: Subject<Point[]>;
   pointForm: FormGroup;
-  xValues = [ -4, -3, -2, -1, "0", 1, 2,3, 4].reverse();
-  rValues = [ -4, -3, -2, -1, "0", 1, 2, 3, 4].reverse();
+  xValues = [
+    {label: '4', value: 4},
+    {label: '3', value: 3},
+    {label: '2', value: 2},
+    {label: '1', value: 1},
+    {label: '0', value: 0},
+    {label: '-1', value: -1},
+    {label: '-2', value: -2},
+    {label: '-3', value: -3},
+    {label: '-4', value: -4}
+  ]
+  rValues = [
+    {label: '4', value: 4},
+    {label: '3', value: 3},
+    {label: '2', value: 2},
+    {label: '1', value: 1},
+    {label: '0', value: 0},
+    {label: '-1', value: -1},
+    {label: '-2', value: -2},
+    {label: '-3', value: -3},
+    {label: '-4', value: -4}
+  ]
   canvasRadius = 3;
   matchingRadius = false;
-  readonly canvasWidthHeight = 500;
+  readonly canvasWidthHeight = 450;
 
   constructor(private configService: ConfigService,
               private router: Router,
               private fb: FormBuilder,
-              private pointService: PointService) {
+              private pointService: PointService,
+              private service: NotificationsService) {
     this.pointForm = fb.group({
       x: new FormControl('', Validators.required),
       y: new FormControl('0', [Validators.min(-4.99999), Validators.max(4.99999)]),
@@ -48,7 +70,10 @@ export class FormComponent implements OnInit, AfterViewInit {
     this.pointService.postPoint(point).pipe(
       catchError(this.handleError.bind(this))
     ).subscribe(
-      () => this.getPoints()
+      () => {
+        this.onSuccess("Точка удачно добавлена!");
+        this.getPoints();
+      }
     );
   }
 
@@ -66,12 +91,34 @@ export class FormComponent implements OnInit, AfterViewInit {
     this.pointService.deletePoints().pipe(
       catchError(this.handleError.bind(this))
     ).subscribe(
-      () => this.$points.next([])
+      () =>{
+        this.onSuccess("Точки были удалены!");
+        this.$points.next([])
+      }
     );
   }
 
   private handleError(errorResp: HttpErrorResponse) {
+    this.onError(errorResp.error);
     return throwError(errorResp);
+  }
+
+  onSuccess(message: any){
+    this.service.success('Success', message, {
+      position: ['bottom', 'right'],
+      timeOut: 2000,
+      animate: 'fade',
+      showProgressBar: true
+    });
+  }
+
+  onError(message: any){
+    this.service.error('Error', message, {
+      position: ['bottom', 'right'],
+      timeOut: 2000,
+      animate: 'fade',
+      showProgressBar: true
+    });
   }
 
   signOut(): void {

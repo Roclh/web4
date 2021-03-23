@@ -18,7 +18,7 @@ const design = {
     aim: 'yellow',
     hit: 'lawngreen',
     miss: 'red',
-    shapes: '#aaaef3',
+    shapes: '#2097f2',
     main: 'black',
     background: 'white'
   },
@@ -226,7 +226,7 @@ export class CanvasComponent implements OnInit, AfterViewInit, OnChanges {
   drawPoints(ctx: CanvasRenderingContext2D) {
     ctx.lineWidth = design.point.outlineWidth;
     let hits = this.matchingRads ? this.points.filter(point => point.r == this.rValue) : this.points;
-    hits.forEach(point => this.drawPoint(ctx, point.x, point.y, design.colors[point.result ? 'hit' : 'miss']));
+    hits.forEach(point => this.drawPoint(ctx, point.x, point.y, design.colors[this.checkPoint(point, this.rValue) ? 'hit' : 'miss']));
   }
 
   get drawingR(): number {
@@ -240,5 +240,9 @@ export class CanvasComponent implements OnInit, AfterViewInit, OnChanges {
 
   canvasRelativeY(event: MouseEvent, canvasContainer: HTMLElement): number {
     return event.pageY - canvasContainer.offsetTop;
+  }
+
+  checkPoint(point: Point, r: number):boolean{
+    return (point.x<=0&&point.y>=0&&(point.x>-r/2&&point.y<r))||(point.x>=0&&point.y>=0&&(point.y<r/2-point.x/2))||(point.x>=0&&point.y<=0&&(point.x*point.x+point.y*point.y<r*r))
   }
 }

@@ -17,6 +17,8 @@ import {InputTextModule} from 'primeng/inputtext';
 import {SimpleNotificationsModule} from 'angular2-notifications';
 import {ButtonModule} from 'primeng/button';
 import {ConfigService} from './services/config.service';
+import { TableComponent } from './table/table.component';
+import {TableModule} from 'primeng/table';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import {ConfigService} from './services/config.service';
     CanvasComponent,
     AuthComponent,
     MainComponent,
-    AuthFormComponent
+    AuthFormComponent,
+    TableComponent
   ],
   imports: [
     HttpClientModule,
@@ -39,7 +42,8 @@ import {ConfigService} from './services/config.service';
     AppRoutingModule,
     InputTextModule,
     SimpleNotificationsModule.forRoot(),
-    ButtonModule
+    ButtonModule,
+    TableModule
   ],
   providers: [
     HttpClient,
@@ -53,7 +57,7 @@ import {ConfigService} from './services/config.service';
       useValue: '/api/auth/register'
     },
     {
-      provide: 'hitsUrl',
+      provide: 'pointsUrl',
       useValue: '/api/points'
     }
   ],

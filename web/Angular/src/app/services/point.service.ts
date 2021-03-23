@@ -8,7 +8,7 @@ import {Point} from '../objects/Point';
   providedIn: 'root'
 })
 export class PointService {
-  constructor(@Inject('hitsUrl') private url: string,
+  constructor(@Inject('pointsUrl') private url: string,
               private configService: ConfigService,
               private http: HttpClient) {
   }

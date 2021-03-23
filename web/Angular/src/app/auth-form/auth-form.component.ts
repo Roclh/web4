@@ -16,7 +16,7 @@ interface Credentials{
   styleUrls: ['./auth-form.component.css']
 })
 export class AuthFormComponent implements OnInit {
-  private restrictedSimbols: string = '\"\' ;,.';
+  private restrictedSymbols: string = '\"\' ;,.';
 
   login!: string;
   password!: string;
@@ -80,8 +80,8 @@ export class AuthFormComponent implements OnInit {
   private check(): boolean{
     let i = 0;
     if(this.login != undefined && this.password != undefined && this.login.length>=5 && this.password.length>=5){
-      for(i=0; i< this.restrictedSimbols.length; i++){
-        if(this.login.indexOf(this.restrictedSimbols[i])>-1||this.password.indexOf(this.restrictedSimbols[i])>-1){
+      for(i=0; i< this.restrictedSymbols.length; i++){
+        if(this.login.indexOf(this.restrictedSymbols[i])>-1||this.password.indexOf(this.restrictedSymbols[i])>-1){
           return false;
         }
       }
